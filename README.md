@@ -14,7 +14,7 @@ python manage.py makemigrations
 python manage.py migrate
 ```
 
-3. Lancer l'application:
+3. Lancez l'application:
 ```
 python manage.py runserver
 ```
@@ -40,5 +40,5 @@ Les endpoints de l'API sont les suivants:
 ## Tests
 Pour lancer les tests unitaires des vues et de l'API, executez:
 ```
-pip install -r .\requirements.txt
+python manage.py test todo
 ```
